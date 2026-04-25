@@ -1,0 +1,16 @@
+body{
+    font: 1em serif;
+    margin: 50px 100px;
+}
+header{
+    text-align: center;
+}
+h2{
+    color: #035f9c;
+    font-size: small;
+}
+img{
+    width: 20%;
+    display: block;
+    margin: auto;
+}
