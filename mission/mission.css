@@ -1,6 +1,8 @@
 body{
     font: 1em serif;
     margin: 50px 100px;
+    border: 1px solid darkgrey;
+    padding: 100px 100px;
 }
 header{
     text-align: center;
