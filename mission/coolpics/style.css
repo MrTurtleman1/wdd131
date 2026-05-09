@@ -1,0 +1,35 @@
+@media screen and (min-width: 1000px) {
+header {
+font-size: 2em;
+}
+.small{
+   display: none;
+}
+main {
+grid-template-columns: 1fr 1fr 1fr;
+}
+}
+@media screen and (max-width: 1000px) {
+.big{
+    display: none;
+}
+}
+/*.big disapears when the screen is too small and .small disappears when the screen is to big*/
+body{
+    text-align: center;
+    background-color: lightblue;
+}
+header{
+    background-color: #035f9c;
+    color: azure;
+}
+img{
+    margin: 1em;
+    padding: auto;
+    border: 2px solid azure;
+    box-shadow: 5px 5px 5px 5px;
+}
+footer{
+    background-color: #035f9c;
+    color: azure;
+}
