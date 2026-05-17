@@ -1,3 +1,48 @@
+body{
+    text-align: center;
+    background-color: lightblue;
+}
+header{
+    background-color: #035f9c;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+img{
+    margin: 1em;
+    padding: auto;
+    border: 2px solid azure;
+    box-shadow: 5px 5px 5px 5px;
+}
+footer{
+    background-color: #035f9c;
+    color: azure;
+}
+dialog img {
+    width: 90%;
+    display: block;
+    margin: 20vh auto;
+    border: none;
+}
+dialog {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.75);
+}
+.close-viewer {
+    position: absolute;
+    top: 10vh;
+    right: 2vh;
+    padding: 3px 6px;
+    font-size: 1.5em;
+}
 @media screen and (min-width: 1000px) {
 header {
 font-size: 2em;
@@ -15,21 +60,3 @@ grid-template-columns: 1fr 1fr 1fr;
 }
 }
 /*.big disapears when the screen is too small and .small disappears when the screen is to big*/
-body{
-    text-align: center;
-    background-color: lightblue;
-}
-header{
-    background-color: #035f9c;
-    color: azure;
-}
-img{
-    margin: 1em;
-    padding: auto;
-    border: 2px solid azure;
-    box-shadow: 5px 5px 5px 5px;
-}
-footer{
-    background-color: #035f9c;
-    color: azure;
-}
