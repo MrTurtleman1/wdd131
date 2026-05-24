@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+nav{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    color: maroon;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    list-style: none;
+    padding: 1%;
+}
+.about {
+    grid-column-start: 4;
+}
+.archive {
+    grid-column-start: 5;
+}
+.search {
+    grid-column-start: 6;
+}
+.book{
+    border-top: 1px solid maroon;
+    border-bottom: 1px solid maroon;
+}
+section{
+    grid-template-columns: 1fr 1fr;
+}
+.facts{
+    text-align: right;
+    grid-column-start: 2;
+}
+img{
+    padding: 0% 5%;
+    display: block;
+}
+footer{
+    text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+    .book{
+        border-top: 0 solid #000;
+    }
+    .facts{
+        grid-column-start: auto;
+        border-right: 1px solid maroon;
+    }
+}
