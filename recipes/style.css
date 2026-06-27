@@ -12,13 +12,14 @@ div {
 .search {
     border: 1px solid black;
     border-radius: 8px;
-    padding: 5px;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
+}
+.search input {
+    flex: 1 1 165px;
 }
 .search img {
     max-width: 50px;
-    border-left: 1px solid black;
     padding: 1px;
 }
 .recipe {
