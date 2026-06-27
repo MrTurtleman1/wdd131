@@ -22,7 +22,7 @@ div {
     padding: 1px;
 }
 .recipe {
-    display: grid;
+    display: flex;
     grid-template-columns: auto auto;
     border: 1px solid black;
     border-radius: 8px;
@@ -30,7 +30,7 @@ div {
 }
 .recipe img {
     width: 200px;
-    grid-column-end: 0;
+    justify-self: center;
 }
 .tag {
     background-color: grey;
