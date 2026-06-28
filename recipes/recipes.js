@@ -331,9 +331,9 @@ function ratingTemplate(rating) {
 >  Difficulty: `
     for (let i = 1; i <= 5; i++) {
       if (i <= rating) {
-        html += `<span aria-hidden="true" class="icon-boot"> 🥾</span>`
+        html += `<span aria-hidden="true" class="icon-star">⭐</span>`
       } else {
-        html += `<span aria-hidden="true" class="icon-empty">▫️</span>`
+        html += `<span aria-hidden="true" class="icon-star-empty">☆</span>`
       }			
     }
     html += `</span>`
@@ -343,12 +343,15 @@ function ratingTemplate(rating) {
 function recipesTemplate(recipe) {
     return `<div class="recipe-card">
   <div class="recipe-content">
-    <h2>${recipe.name}</h2>
+	<img src=${recipe.image} alt=${recipe.name}>
+	<div class="words">
     <div class="recipe-tags">
       ${tagTemplate(recipe.tags)}
     </div>
-    <p>${recipe.description}</p>
+    <h2>${recipe.name}</h2>
     <p>${ratingTemplate(recipe.rating)}</p>
+    <p>${recipe.description}</p>
+	</div>
   </div>
 </div>`
 }

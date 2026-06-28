@@ -28,10 +28,19 @@ div {
     border: 1px solid black;
     border-radius: 8px;
     padding: 8px 8px 8px 8px;
+    flex-direction: column;
+    align-items: center;
 }
-.recipe img {
+.recipe-content {
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    padding: 8px 8px 8px 8px;
+}
+.recipe-content img {
     width: 200px;
     justify-self: center;
+    padding: 8px 8px 8px 8px;
 }
 .tag {
     background-color: grey;
@@ -39,7 +48,7 @@ div {
     border-radius: 8px;
 }
 h2 {
-    color: aqua;
+    color: darkcyan;
 }
 footer {
     display: flex;
@@ -56,6 +65,9 @@ footer div img {
     }
     .recipe p {
         display: none;
+    }
+    .recipe-content {
+        flex-direction: column;
     }
     footer {
         display: flex;
